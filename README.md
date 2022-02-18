@@ -8,38 +8,38 @@ This project focuses primarily on analyzing the performance of these two domain 
 
 ### Synthetic to Natural Domain Adaptation
 
-| Domains | mAP | mAP_50 | 
-| ------ | ------ | ------ | 
-| SIM10K | 40.1 | 67.2 | 
+| Domains | mAP | mAP_50 | Trained model |
+| ------ | ------ | ------ | ------ |
+| SIM10K | 40.1 | 67.2 | [model](https://paperhive.org/)
 | Cityscapes | 15.8 | 32.9 | 
 
 ### Natural to Natural Domain Adaptation
 
-| Domains | mAP | mAP_50 | 
-| ------ | ------ | ------ | 
-| Cityscapes | 7.99 | 16.43 | 
+| Domains | mAP | mAP_50 | Trained model |
+| ------ | ------ | ------ | ------ |
+| Cityscapes | 7.99 | 16.43 |  [model](https://paperhive.org/)
 | Foggy Cityscapes| 6.25 | 13.30 | 
 
 
 
 ## Multi Step Weakly Supervised Domain Adaptation
 
-| Detector and number of iterations | Clipart1K | Watercolor2k | Comic2k |
-| ------ | ------ | ------ | ------ | 
-| Pretrained | 45.97 | 54.25 | 37.24 |
-| SSD300 5000 iterations | 42.36 | 52.57 | 37.62 |
-| SSD300 10000 iterations | 43.48 | 53.28 | 37.50 |
-| SSD300 15000 iterations| 43.24 | 52.11 | 36.38 |
-| SSD512 5000 iterations | 44.11 | 52.56 | 35.61|
-| SSD512 10000 iterations | 43.21 | 51.50 | 35.78 |
-| SSD512 15000 iterations| 43.46 | 50.98 | 35.26 |
+| Detector and number of iterations | Clipart1K | Watercolor2k | Comic2k | Trained model |
+| ------ | ------ | ------ | ------ | ------ |
+| Pretrained | 45.97 | 54.25 | 37.24 |  [model](https://paperhive.org/)
+| SSD300 5000 iterations | 42.36 | 52.57 | 37.62 |  [model](https://paperhive.org/)
+| SSD300 10000 iterations | 43.48 | 53.28 | 37.50 |  [model](https://paperhive.org/)
+| SSD300 15000 iterations| 43.24 | 52.11 | 36.38 |  [model](https://paperhive.org/)
+| SSD512 5000 iterations | 44.11 | 52.56 | 35.61|  [model](https://paperhive.org/)
+| SSD512 10000 iterations | 43.21 | 51.50 | 35.78 |  [model](https://paperhive.org/)
+| SSD512 15000 iterations| 43.46 | 50.98 | 35.26 |  [model](https://paperhive.org/)
 
 
 ## Multi Step Weakly Supervised Domain Adaptation using MMDetection
 
 
-| Detector | Clipart1K | Watercolor2k | Comic2k |
-| ------ | ------ | ------ | ------ | 
+| Detector | Clipart1K | Watercolor2k | Comic2k |Trained model |
+| ------ | ------ | ------ | ------ | ------ |
 | FCOS R101 | 22.9 | 50.5 | 36.6 |
 | Faster R-CNN R101 | 20.6 | 34.0 | 14.7 |
 | Faster R-CNN X101 | 58.8 | 61.1 | 46.6 |
