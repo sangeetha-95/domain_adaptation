@@ -10,7 +10,7 @@ This project focuses primarily on analyzing the performance of these two domain 
 
 | Domains | mAP | mAP_50 | Trained model |
 | ------ | ------ | ------ | ------ |
-| SIM10K | 40.1 | 67.2 | [model](https://tubcloud.tu-berlin.de/s/EXwR5AngoFQzHrR)
+| SIM10K | 40.1 | 67.2 | [model](https://tubcloud.tu-berlin.de/apps/files/?dir=/Sangeetha_Reji_Master_Thesis/mmdetection&fileid=3178405934)
 | Cityscapes | 15.8 | 32.9 | 
 
 ### Natural to Natural Domain Adaptation
